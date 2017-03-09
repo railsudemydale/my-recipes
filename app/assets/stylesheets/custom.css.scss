@@ -35,6 +35,8 @@ $navbar-default-bg: #097712;
   font-weight: bold;
 }
 
+
+
 .btn-xlarge {
   background-color: #097712;
 }
@@ -45,11 +47,29 @@ $navbar-default-bg: #097712;
 }
 
 .footer {
-  color: #097712;
-  text-align: center;
-  height: 30px;
-  position: fixed;
-  margin-bottom: 10px;
-  letter-spacing: -1px;
-  font-weight: bold;
+   margin-top: 45px;
+   padding-top: 5px;
+   border-top: 1px solid #eaeaea;
+   color: #097712;
+}
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
